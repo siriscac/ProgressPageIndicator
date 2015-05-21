@@ -1,7 +1,7 @@
 # ProgressPageIndicator
 A filling Page Indicator for viewpagers
 
-![Sample Screenshot](https://raw.githubusercontent.com/siriscac/ProgressPageIndicator/master/screens/screen.png = 250x)
+![Sample Screenshot](https://raw.githubusercontent.com/siriscac/ProgressPageIndicator/master/screens/screen.png =250x)
 
 *For a working implementation, Have a look at the Sample Project - app module*
 
