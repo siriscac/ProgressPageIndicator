@@ -44,12 +44,12 @@ A native library for Android that provides a filling Page Indicator for viewpage
 #Customization
 
 There are five attributes which are applicable to `ProgressPageIndicator`.
-
+  
+  - `strokeRadius` Radius of the stroke
   - `dotGap` Space between the indicators
   - `strokeColor` Color of the Stroke
   - `fillColor` Color of the Fill
   - `radius` Radius of the indicator
-  - `strokeRadius` Radius of the stroke
   
 
   - You can also set these attributes from your java code by calling `setStrokeColor(strokeColor)`, `setFillColor(fillColor)`, `setRadius(Radius)`, `setStrokeRadiys(strokeRadius)`, `setDotGap(dotGap)` respectively.
