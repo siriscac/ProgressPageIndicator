@@ -1,6 +1,6 @@
 [ ![Download](https://api.bintray.com/packages/siriscac/maven/ProgressPageIndicator/images/download.svg) ](https://bintray.com/siriscac/maven/ProgressPageIndicator/_latestVersion)
 # ProgressPageIndicator
-A filling Page Indicator for viewpagers
+A native library for Android that provides a filling Page Indicator for viewpagers
 
 ![Sample Screenshot](https://raw.githubusercontent.com/siriscac/ProgressPageIndicator/master/screens/screen.png)
 
