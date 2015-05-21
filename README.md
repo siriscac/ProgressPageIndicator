@@ -20,7 +20,7 @@ A filling Page Indicator for viewpagers
        compile 'com.siriscac:progresspageindicator:1.0.0'
 
 2. Include the ProgressPageIndicator widget in your layout.
-
+   
    <com.cepheuen.progresspageindicator.ProgressPageIndicator
                 android:id="@+id/pageIndicator"
                 android:layout_width="wrap_content"
