@@ -1,7 +1,7 @@
 # ProgressPageIndicator
 A filling Page Indicator for viewpagers
 
-![Sample Screenshot](https://raw.githubusercontent.com/siriscac/ProgressPageIndicator/master/screens/screen.png)
+![Sample Screenshot](https://raw.githubusercontent.com/siriscac/ProgressPageIndicator/master/screens/screen.png = 250x)
 
 *For a working implementation, Have a look at the Sample Project - app module*
 
@@ -20,8 +20,7 @@ A filling Page Indicator for viewpagers
        compile 'com.siriscac:progresspageindicator:1.0.0'
 
 2. Include the ProgressPageIndicator widget in your layout.
-   
-   <com.cepheuen.progresspageindicator.ProgressPageIndicator
+    <com.cepheuen.progresspageindicator.ProgressPageIndicator
                 android:id="@+id/pageIndicator"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
