@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cepheuen.app.PagerActivity">
+
+    <RelativeLayout
+        android:id="@+id/toolbar_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:background="@android:color/holo_blue_dark">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:text="@string/title" />
+
+            <com.cepheuen.progresspageindicator.ProgressPageIndicator
+                android:id="@+id/dotsL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                app:dotGap="2dp"
+                app:fillColor="#cccccc"
+                app:radius="8dp" />
+
+    </RelativeLayout>
+
+    <com.cepheuen.app.NonSwipeableViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_layout"
+        android:layout_below="@+id/toolbar_actionbar" />
+
+    <LinearLayout
+        android:id="@+id/btn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/prev"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:background="@android:color/holo_green_light"
+            android:layout_weight="1"
+            android:text="@string/previous" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:background="@android:color/holo_blue_dark"
+            android:layout_weight="1"
+            android:text="@string/next" />
+    </LinearLayout>
+
+</RelativeLayout>

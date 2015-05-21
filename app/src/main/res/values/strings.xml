@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ProgressPageIndicator</string>
+
+    <string name="title">Title</string>
+    <string name="previous">PREV</string>
+    <string name="next">NEXT</string>
 </resources>
