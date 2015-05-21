@@ -47,11 +47,11 @@ A filling Page Indicator for viewpagers
 
 There are five attributes which are applicable to `ProgressPageIndicator`.
 
+  * `dotGap` Space between the indicators
   * `strokeColor` Color of the Stroke
   * `fillColor` Color of the Fill
   * `radius` Radius of the indicator
   * `strokeRadius` Radius of the stroke
-  * `dotGap` Space between the indicators
 
 
   * You can also set these attributes from your java code by calling `setStrokeColor(strokeColor)`, `setFillColor(fillColor)`, `setRadius(Radius)`, `setStrokeRadiys(strokeRadius)`, `setDotGap(dotGap)` respectively.
