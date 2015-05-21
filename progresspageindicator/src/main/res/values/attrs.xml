@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProgressPageIndicator">
+        <attr name="fillColor" format="color" />
+        <attr name="strokeColor" format="color" />
+        <attr name="radius" format="dimension" />
+        <attr name="strokeRadius" format="dimension" />
+        <attr name="dotGap" format="dimension" />
+    </declare-styleable>
+</resources>
