@@ -1,25 +1,29 @@
 # ProgressPageIndicator
 A filling Page Indicator for viewpagers
 
-![Sample Screenshot](https://raw.githubusercontent.com/siriscac/ProgressPageIndicator/master/screens/screen.png =250x)
+![Sample Screenshot](https://raw.githubusercontent.com/siriscac/ProgressPageIndicator/master/screens/screen.png)
 
 *For a working implementation, Have a look at the Sample Project - app module*
 
 1. Include the library as local library project or get it from jCenter(). 
 
   Add this to your build.gradle
-
+  ```
    repositories {
     maven {
         url "http://dl.bintray.com/siriscac/maven"
     }
    }
+   ```
    
    and in your dependancies,
-   
+   ```
        compile 'com.siriscac:progresspageindicator:1.0.0'
+   ```
 
 2. Include the ProgressPageIndicator widget in your layout.
+
+  ```
     <com.cepheuen.progresspageindicator.ProgressPageIndicator
                 android:id="@+id/pageIndicator"
                 android:layout_width="wrap_content"
@@ -30,11 +34,14 @@ A filling Page Indicator for viewpagers
                 app:dotGap="2dp"
                 app:fillColor="#cccccc"
                 app:radius="8dp" />
+  ```
     
 3. Refer the widget from the layout and set the viewpager to it by using setViewPager().
    
+  ```
    pagerIndicator = (ProgressPageIndicator) findViewById(R.id.dotsL);
    pagerIndicator.setViewPager(viewPager);
+  ```
    
 #Customization
 
