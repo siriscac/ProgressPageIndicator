@@ -1,6 +1,8 @@
 # ProgressPageIndicator
 A filling Page Indicator for viewpagers
 
+![Sample Screenshot](https://raw.githubusercontent.com/siriscac/ProgressPageIndicator/master/screens/screen.png)
+
 *For a working implementation, Have a look at the Sample Project - app module*
 
 1. Include the library as local library project or get it from jCenter(). 
