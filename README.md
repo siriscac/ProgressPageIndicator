@@ -9,7 +9,7 @@ A filling Page Indicator for viewpagers
 1. Include the library as local library project or get it from jCenter(). 
 
   Add this to your build.gradle
-  ```
+  ```groovy
    repositories {
      maven {
          url "http://dl.bintray.com/siriscac/maven"
@@ -18,13 +18,13 @@ A filling Page Indicator for viewpagers
    ```
    
    and in your dependancies,
-   ```
+   ```groovy
     compile 'com.siriscac:progresspageindicator:1.0.0'
    ```
 
 2. Include the ProgressPageIndicator widget in your layout.
 
-  ```
+  ```xml
     <com.cepheuen.progresspageindicator.ProgressPageIndicator
                 android:id="@+id/pageIndicator"
                 android:layout_width="wrap_content"
@@ -39,7 +39,7 @@ A filling Page Indicator for viewpagers
     
 3. Refer the widget from the layout and set the viewpager to it by using setViewPager().
    
-  ```
+  ```java
    pagerIndicator = (ProgressPageIndicator) findViewById(R.id.dotsL);
    pagerIndicator.setViewPager(viewPager);
   ```
