@@ -26,15 +26,12 @@ A filling Page Indicator for viewpagers
 
   ```xml
     <com.cepheuen.progresspageindicator.ProgressPageIndicator
-                android:id="@+id/pageIndicator"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/title"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="5dp"
-                app:dotGap="2dp"
-                app:fillColor="#cccccc"
-                app:radius="8dp" />
+        android:id="@+id/pageIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:dotGap="2dp"
+        app:fillColor="#cccccc"
+        app:radius="8dp" />
   ```
     
 3. Refer the widget from the layout and set the viewpager to it by using setViewPager().
@@ -53,6 +50,7 @@ There are five attributes which are applicable to `ProgressPageIndicator`.
   - `fillColor` Color of the Fill
   - `radius` Radius of the indicator
   - `strokeRadius` Radius of the stroke
+  
 
   - You can also set these attributes from your java code by calling `setStrokeColor(strokeColor)`, `setFillColor(fillColor)`, `setRadius(Radius)`, `setStrokeRadiys(strokeRadius)`, `setDotGap(dotGap)` respectively.
   
