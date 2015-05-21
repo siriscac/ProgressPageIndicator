@@ -11,15 +11,15 @@ A filling Page Indicator for viewpagers
   Add this to your build.gradle
   ```
    repositories {
-    maven {
-        url "http://dl.bintray.com/siriscac/maven"
-    }
+     maven {
+         url "http://dl.bintray.com/siriscac/maven"
+     }
    }
    ```
    
    and in your dependancies,
    ```
-       compile 'com.siriscac:progresspageindicator:1.0.0'
+    compile 'com.siriscac:progresspageindicator:1.0.0'
    ```
 
 2. Include the ProgressPageIndicator widget in your layout.
