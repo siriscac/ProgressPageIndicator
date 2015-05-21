@@ -45,6 +45,7 @@ There are five attributes which are applicable to `ProgressPageIndicator`.
   * `strokeRadius` Radius of the stroke
   * `dotGap` Space between the indicators
 
+
   * You can also set these attributes from your java code by calling `setStrokeColor(strokeColor)`, `setFillColor(fillColor)`, `setRadius(Radius)`, `setStrokeRadiys(strokeRadius)`, `setDotGap(dotGap)` respectively.
   
 #Compatibility
