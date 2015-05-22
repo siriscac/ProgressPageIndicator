@@ -17,7 +17,7 @@ A native library for Android that provides a filling Page Indicator for viewpage
    }
    ```
    
-   and in your dependancies,
+   and in your dependencies,
    ```groovy
     compile 'com.siriscac:progresspageindicator:1.0.0'
    ```
