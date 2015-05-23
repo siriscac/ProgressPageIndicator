@@ -1,4 +1,5 @@
-[ ![Download](https://api.bintray.com/packages/siriscac/maven/ProgressPageIndicator/images/download.svg) ](https://bintray.com/siriscac/maven/ProgressPageIndicator/_latestVersion)
+[ ![Download](https://api.bintray.com/packages/siriscac/maven/ProgressPageIndicator/images/download.svg) ](https://bintray.com/siriscac/maven/ProgressPageIndicator/_latestVersion) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ProgressPageIndicator-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/1856)
+
 # ProgressPageIndicator
 A native library for Android that provides a filling Page Indicator for viewpagers
 
@@ -8,16 +9,7 @@ A native library for Android that provides a filling Page Indicator for viewpage
 
 1. Include the library as local library project or get it from jCenter(). 
 
-  Add this to your build.gradle
-  ```groovy
-   repositories {
-     maven {
-         url "http://dl.bintray.com/siriscac/maven"
-     }
-   }
-   ```
-   
-   and in your dependencies,
+   add in your dependencies,
    ```groovy
     compile 'com.siriscac:progresspageindicator:1.0.0'
    ```
