@@ -17,7 +17,7 @@ A native library for Android that provides a filling Page Indicator for viewpage
 2. Include the ProgressPageIndicator widget in your layout.
 
   ```xml
-    <com.cepheuen.progresspageindicator.ProgressPageIndicator
+   <com.cepheuen.progresspageindicator.ProgressPageIndicator
         android:id="@+id/pageIndicator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
