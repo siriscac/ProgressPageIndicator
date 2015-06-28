@@ -11,7 +11,7 @@ A native library for Android that provides a filling Page Indicator for viewpage
 
    add in your dependencies,
    ```groovy
-    compile 'com.siriscac:progresspageindicator:1.0.0'
+    compile 'com.siriscac:progresspageindicator:1.1.0'
    ```
 
 2. Include the ProgressPageIndicator widget in your layout.
@@ -56,6 +56,10 @@ There are five attributes which are applicable to `ProgressPageIndicator`.
   
 #Changelog
 
+### Version: 1.1
+
+  * Fix NPE on setting Empty Adapters
+  
 ### Version: 1.0
 
   * Initial Build
